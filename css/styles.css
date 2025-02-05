@@ -4,23 +4,29 @@ body {
 
 
 
-.pagetop {
+.flex-container {
     display: flex;
-    padding: 5px;
-    height: 30px;
-    font-family: 'Source Sans Pro Topnav', sans-serif;
- 
-
-
-
 }
+.flex-container button{
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    flex: 1;
+}
+
+.knapper {
+background-color: rgba(137, 43, 226, 0);
+border-color: rgba(137, 43, 226, 0);
+}
+
 
 .salsaknapp {
 background-image: url(../gif/SALSA-5-2-2025.gif);
 background-size: cover;
 width: 150px;
 height: 60px;
-background-color: blueviolet;
+
 }
 
 .sconesknapp {
@@ -28,7 +34,7 @@ background-image: url(../gif/SCONES-5-2-2025.gif);
 background-size: cover;
 width: 170px;
 height: 60px;
-background-color: blueviolet;
+
 }
 
 .fajitasknapp {
@@ -36,7 +42,7 @@ background-image: url(../gif/FAJITAS-5-2-2025.gif);
 background-size: cover;
 width: 170px;
 height: 60px;
-background-color: blueviolet;
+
 }
 
 
