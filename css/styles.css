@@ -1,9 +1,55 @@
 body {
-    background-color: aqua;
+
 }
+
+
+
+.pagetop {
+    display: flex;
+    padding: 5px;
+    height: 30px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+ 
+
+
+
+}
+
+.salsaknapp {
+background-image: url(../gif/SALSA-5-2-2025.gif);
+background-size: cover;
+width: 150px;
+height: 60px;
+background-color: blueviolet;
+}
+
+.sconesknapp {
+background-image: url(../gif/SCONES-5-2-2025.gif);
+background-size: cover;
+width: 170px;
+height: 60px;
+background-color: blueviolet;
+}
+
+.fajitasknapp {
+background-image: url(../gif/FAJITAS-5-2-2025.gif);
+background-size: cover;
+width: 170px;
+height: 60px;
+background-color: blueviolet;
+}
+
 
 .title {
     background-color: green;
     text-align: center;
     margin-bottom: 32px;
+    margin-top: 50px;
+
+}
+
+.button {
+    font-size: 14px;
+    background-color: aquamarine;
+
 }
